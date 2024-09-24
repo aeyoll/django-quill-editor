@@ -9,13 +9,14 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Django = ">=4.2,<6"
+
+[tool.poetry.group.dev.dependencies]
+Django = "^4.2"
 django-extensions = "^3.2.3"
 djangorestframework = "^3.15.2"
 gunicorn = "^23.0.0"
 model-bakery = "^1.19.5"
 
-[tool.poetry.group.dev.dependencies]
 # Test
 pytest = "^8.3.3"
 pytest-django = "^4.9.0"
