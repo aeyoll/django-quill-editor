@@ -2,9 +2,6 @@ const djq = {}
 
 class QuillWrapper {
     constructor(targetDivId, targetInputId, quillOptions) {
-        if (!Quill.imports["modules/resize"] && quillOptions["modules"].resize) {
-            Quill.register("modules/resize", window.QuillResizeModule);
-        }
         if (!Quill.imports["modules/imageCompressor"] && quillOptions["modules"].imageCompressor) {
             Quill.register("modules/imageCompressor", imageCompressor);
         }
