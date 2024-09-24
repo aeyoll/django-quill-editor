@@ -27,11 +27,6 @@ DEFAULT_CONFIG = {
             "debug": False,
             "suppressErrorLogging": True,
         },
-        # quill-resize
-        "resize": {
-            "showSize": True,
-            "locale": {},
-        },
     },
 }
 MEDIA_JS = [
